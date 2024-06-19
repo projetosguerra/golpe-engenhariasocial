@@ -21,7 +21,7 @@
             <i class="fas fa-shopping-cart"></i>
         </div>
     </div>
-    <div class="second-menu">
+    <div style="margin-top: 4.9rem;" class="second-menu">
         Cartões restantes: 125
     </div>
 
@@ -32,13 +32,13 @@
         <span>R$100,00</span>
         <p>Expira em <span style="font-size: 1rem;" id="countdown">12:44:01</span></p>
     </div>
-    <button class="save-button" onclick="window.location.href='alerta.html'">Resgatar cartão</button>
+    <button class="save-button" onclick="window.location.href='login.html'">Resgatar cartão</button>
     </div>
 
     <script>
         function startCountdown() {
             const countdownElement = document.getElementById('countdown');
-            const targetDate = new Date('2024-06-12T23:59:59');
+            const targetDate = new Date('2024-06-19T23:59:59');
 
             function updateCountdown() {
                 const now = new Date();
